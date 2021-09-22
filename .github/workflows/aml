@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>responsive Template </title>
+<link rel="stylesheet" href="css/my.css"/>
+
+
+<link rel="stylesheet" href="css/normalize.css"/>
+
+   <!-- Font Awesome Library -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   <!-- Google Fonts -->
+   <link rel="preconnect" href="https://fonts.gstatic.com" />
+   <link
+     href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&#038;display=swap"
+     rel="stylesheet" />
+
+</head>
+<body>
+
+<!-- Start Header -->
+<div class="header">
+    <div class="container">
+        <div class="logo">NOOR</div>
+        <div class="links">
+        <span class="icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- End Header -->
+
+
+
+<div class="landing">
+    <div class="land-text">
+<h2>noor website</h2>
+<p>we are here to help you.. hello all of you</p>
+</div>
+</div>
+
+
+ <!-- Start Features -->
+ <div class="features">
+    <div class="container">
+      <div class="feat">
+        <i class="fas fa-magic fa-3x"></i>
+        <h3>Tell Us Your Idea</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lab</p>
+      </div>
+      <div class="feat">
+        <i class="far fa-gem fa-3x"></i>
+        <h3>We Will Do All The Work</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lab</p>
+      </div>
+      <div class="feat">
+        <i class="fas fa-globe-asia fa-3x"></i>
+        <h3>Your Product is Worldwide</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lab</p>
+      </div>
+    </div>
+  </div>
+  <!-- End Features -->
+  
+   <hr>
+
+
+<!-- Start Services -->
+<div class="services" id="services">
+  <div class="container">
+    <h2 class="special-heading">Services</h2>
+    <p>Don't be busy, be productive</p>
+    <div class="services-content">
+      <div class="col">
+        <!-- Start Service -->
+        <div class="srv">
+          <i class="fas fa-palette fa-2x"></i>
+          <div class="text">
+            <h3>Graphic Design</h3>
+            <p>
+              Graphic design is the process of visual communication and problem-solving using one or more of
+              typography, photography and illustration.
+            </p>
+          </div>
+        </div>
+        <div class="srv">
+          <i class="fab fa-sketch fa-2x"></i>
+          <div class="text">
+            <h3>UI & UX</h3>
+            <p>
+              Process of enhancing user satisfaction with a product by improving the usability, accessibility, and
+              pleasure provided in the interaction.
+            </p>
+          </div>
+        </div>
+        <!-- End Service -->
+      </div>
+      <div class="col">
+        <!-- Start Services -->
+        <div class="srv">
+          <i class="fas fa-vector-square fa-2x"></i>
+          <div class="text">
+            <h3>Web Design</h3>
+            <p>
+              Web design encompasses many different skills and disciplines in the production and maintenance of
+              websites.
+            </p>
+          </div>
+        </div>
+        <div class="srv">
+          <i class="fas fa-pencil-ruler fa-2x"></i>
+          <div class="text">
+            <h3>Web Development</h3>
+            <p>
+              Web development is a broad term for the work involved in developing a web site for the Internet or an
+              intranet.
+            </p>
+          </div>
+        </div>
+        <!-- End Services -->
+      </div>
+      <div class="col">
+        <div class="image image-column">
+          <img src="data:image/jpeg;base64,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" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Services -->
+ <!-- Start Portfolio -->
+ <div class="portfolio" id="portfolio">
+  <div class="container">
+    <h2 class="special-heading">Portfolio</h2>
+    <p>If you do it right, it will last forever.</p>
+    <div class="portfolio-content">
+      <div class="card">
+        <img src="https://www.appsypaginasweb.com/images/web_development-1.png"/>
+        <div class="info">
+          <h3>Project Here</h3>
+          <p>My creative ability is very difficult to measure because it can manifest in so many surprising and.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://cdn.appdesign.dev/wp-content/uploads/2019/12/Crear-pa%CC%81gina-web-y-app.jpg"/>
+        <div class="info">
+          <h3>Project Here</h3>
+          <p>My creative ability is very difficult to measure because it can manifest in so many surprising and.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://cdn.appdesign.dev/wp-content/uploads/2019/12/Crear-pa%CC%81gina-web-y-app.jpg"/>
+        <div class="info">
+          <h3>Project Here</h3>
+          <p>My creative ability is very difficult to measure because it can manifest in so many surprising and.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Portfolio -->
+
+<!-- Start About -->
+<div class="about">
+  <div class="container">
+    <h2 class="special-heading">About</h2>
+    <p>Less is more work</p>
+    <div class="about-content">
+      <div class="image">
+<img src="https://img.pikbest.com/01/64/09/00bpIkbEsTmWh.jpg-0.jpg!bw700"/>
+      </div>
+      <div class="text">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil nemo neque voluptate tempora velit cum non,
+          fuga vitae architecto delectus sed maxime rerum impedit aliquam obcaecati, aut excepturi iusto laudantium!
+        </p>
+        <hr />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, sapiente. Velit iure exercitationem
+          dolores nesciunt dolore. Eum officiis dolorum hic voluptate quaerat minima, similique inventore esse,
+          alias, sed quo oficia?
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End About -->
+
+
+<!-- Start Contact -->
+<div class="contact">
+  <div class="container">
+    <h2 class="special-heading">Contact</h2>
+    <p>We are born to create</p>
+    <div class="info">
+      <p class="label">Feel free to drop us a line at:</p>
+      <a href="mailto:leonagency@mail.com?subject=Contact" class="link">leonagency@mail.com</a>
+      <div class="social">
+        Find Us On Social Networks
+        <i class="fab fa-youtube"></i>
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Contact -->
+<!-- Start Footer -->
+<div class="footer">&copy; 2021 <span>Leon</span> All Right Reserved</div>
+<!-- End Footer -->
+
+</body>
+</html>
